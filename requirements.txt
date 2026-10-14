@@ -1,0 +1,8 @@
+numpy==2.5.4
+opencv-python==5.0.0.93
+mss==10.2.0
+dxcam==0.3.0
+comtypes==1.4.17
+
+# building the exe
+pyinstaller==6.22.3

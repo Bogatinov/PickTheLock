@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller
+build/
+dist/
+*.spec
+*.exe
+
+# Recordings (lossless video, ~1 GB per game) and replay output
+recordings/
+*.mkv
+*.avi
+
+# Per-machine calibration and learned latency
+config.json
+
+# Editors / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
