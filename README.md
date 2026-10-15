@@ -1,6 +1,6 @@
 # Pick the Lock Bot
 
-![Python](https://img.shields.io/badge/python-3.13-blue)
+![Python](https://img.shields.io/badge/python-3.14-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -37,7 +37,7 @@ or modified.
 ## Requirements
 
 - Windows 10 or 11
-- Python 3.13 (only to run from source or to build the exe)
+- Python 3.14 (only to run from source or to build the exe)
 - Dota 2 in **Borderless Window** mode (recommended)
 
 ## Getting started
@@ -45,7 +45,7 @@ or modified.
 Run from source:
 
 ```bat
-python -m venv .venv
+py -3.14 -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python picklock.py
@@ -57,7 +57,8 @@ Or build a standalone exe:
 build.bat
 ```
 
-`PickTheLock.exe` is written to the repository root, next to `config.json`.
+`PickTheLock.exe` is written to the repository root, next to `config.json`. The build uses the `.venv`
+environment when it exists.
 
 ## Calibration
 
